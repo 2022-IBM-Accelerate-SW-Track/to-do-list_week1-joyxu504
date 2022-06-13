@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../assets"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"configurations": [
+			{
+				"type": "pwa-chrome",
+				"name": "http://pm install @mui/material @emotion/react @emotion/styled",
+				"request": "launch",
+				"url": "http://pm install @mui/material @emotion/react @emotion/styled"
+			}
+		]
+	}
+}
