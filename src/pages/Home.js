@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import "../component/AddTodo.js";
-import "../component/todos.js";
-import "../pages/Home.css";
+import Todos from "../component/AddTodo";
+import AddTodo from "../component/todos";
+import "../Home.css";
   
 class Home extends Component {
   // A default state of this component with an empty list of todos.
@@ -30,9 +30,9 @@ class Home extends Component {
   render() {
     return (
       <div className="Home">
-        // <h1> Todo's </h1>
-        <p> <Todos todos={this.todos } />
-        <AddTodo addTodo={this.addTodo} />.</p>
+        <h1> Todo's </h1>
+        <Todos todos={this.state.todos } />
+        <AddTodo addTodo={this.addTodo} />
       </div>
     );
   }
